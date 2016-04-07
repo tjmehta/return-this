@@ -1,0 +1,34 @@
+{
+  "name": "return-this",
+  "version": "0.0.0",
+  "description": "A function that simply returns `this`. Useful as a chainable noop stub",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha ./test && istanbul --text check-coverage --statements 100 --functions 100 --branches 100 --lines 100",
+    "test-watch": "nodemon -x mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjmehta/return-this.git"
+  },
+  "keywords": [
+    "return",
+    "this",
+    "chain",
+    "chainable",
+    "noop",
+    "no",
+    "op"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/return-this/issues"
+  },
+  "homepage": "https://github.com/tjmehta/return-this",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
+  }
+}
