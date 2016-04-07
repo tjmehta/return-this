@@ -1,6 +1,6 @@
 {
   "name": "return-this",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function that simply returns `this`. Useful as a chainable noop stub",
   "main": "index.js",
   "scripts": {
